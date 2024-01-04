@@ -67,7 +67,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'dcrmtest',
+<<<<<<< HEAD
         'USER': 'root',
+=======
+>>>>>>> 62036a64919cee48661e36dd114669d2ba9716ff
         'PASSWORD': os.getenv('DB_PASSWORD'),
         'HOST': '127.0.0.1',
         'PORT': '3306',
